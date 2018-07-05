@@ -1,5 +1,8 @@
 ### Unreleased
 
+### 1.0.0beta3 - 2018-07-05
+- Updated to use Que 1.x
+
 ### 0.7.1 - 2018-03-02
 
 #### Fixed:

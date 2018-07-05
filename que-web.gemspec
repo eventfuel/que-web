@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "que-web"
-  spec.version       = "0.7.1"
+  spec.version       = "1.0.0beta3"
   spec.authors       = ["Jason Staten"]
   spec.email         = ["jstaten07@gmail.com"]
   spec.summary       = %q{A web interface for the que queue}
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "que", "~> 0.8"
+  spec.add_dependency "que", "~> 1.0.0beta3"
   spec.add_dependency "sinatra"
   spec.add_dependency "erubis"
 
